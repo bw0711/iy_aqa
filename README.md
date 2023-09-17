@@ -1,1 +1,1 @@
-# iy_aqa
+# Repository for homework on test automation
