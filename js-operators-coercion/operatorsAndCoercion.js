@@ -23,17 +23,17 @@ console.log(typeof parseToString);
 
 
 //task 4
-const myStringOne = "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikipedia Foundation.";
+const myStringOne = 'Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikipedia Foundation.';
 console.log(myStringOne.length);
-console.log(myStringOne.replace("world", "REPLACED"));
+console.log(myStringOne.replace('world', 'REPLACED'));
 console.log(myStringOne.endsWith('foundation'));
 
 
 //task 5
 const radius = 36;
-console.log("Circle area = ", Math.PI * Math.pow(radius, 2));
+console.log('Circle area = ', Math.PI * Math.pow(radius, 2));
 const rectangleLenght = 15;
 const rectanleWidth = 6;
-console.log("Rectangle area = ", rectangleLenght * rectanleWidth);
+console.log('Rectangle area = ', rectangleLenght * rectanleWidth);
 const cylinderHeight = 30;
-console.log("Cylinder area = ", Math.PI * Math.pow(radius, 2) * cylinderHeight);
+console.log('Cylinder area = ', Math.PI * Math.pow(radius, 2) * cylinderHeight);
