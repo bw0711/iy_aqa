@@ -65,10 +65,10 @@ while (i < myString.length) {
     if (currentChar === 'a') {
         i++;
         continue;
-    }
+    };
     if (currentChar === 'n') {
         console.log(`The loop was interrupted on '${currentChar}' char`);
         break;
-    }
+    };
     i++;
 };
