@@ -71,4 +71,4 @@ while (i < myString.length) {
         break;
     }
     i++;
-}
+};
