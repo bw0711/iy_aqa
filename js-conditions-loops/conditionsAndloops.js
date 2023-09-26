@@ -10,7 +10,7 @@ if (yearsOfExperience <= 0.5) {
 } else if (yearsOfExperience > 2 && yearsOfExperience <= 4) {
     console.log('Salary = 555, bonus = 4%');
 } else if (yearsOfExperience > 4) {
-    console.log(`Salary = 666, bonus = ${yearsOfExperience * 666}`)
+    console.log(`Salary = 666, bonus = ${yearsOfExperience * 666}`);
 } else console.log('Error');
 
 //task2
