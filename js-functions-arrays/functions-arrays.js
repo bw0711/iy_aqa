@@ -23,7 +23,7 @@ const recursive = (value) => {
     }
 }
 
-// recursive(2);
+recursive(2);
 
 //task 3
 const nestedArray = [["apple", "banana", "dog"], ["cherry", "cat", "elephant"], ["red", "green", "cat"]];
