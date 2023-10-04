@@ -43,7 +43,7 @@ checkTheArray(nestedArray);
 const divideArray = (numbers) => {
     const result = [];
     try {
-        if (!(numbers && numbers.length)){
+        if (!Array.isArray(numbers)){
             throw new Error ('The argument must be an Array');
         }
         if (numbers.length < 2) {
