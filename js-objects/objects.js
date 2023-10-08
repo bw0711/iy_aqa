@@ -91,7 +91,7 @@ const nestedObject = {
 
 for (const key in nestedObject.address) {
     const value = nestedObject.address[key];
-    console.log(`${key}: ${value}`);
+    console.log(key, value);
 };
 
 //task 6
