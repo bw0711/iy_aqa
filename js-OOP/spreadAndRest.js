@@ -87,7 +87,7 @@ class AudiClass extends CarClass {
     }
 
     set myCurrentColor(newColor) {
-        this.color = newColor;
+        this.#color = newColor;
     }
 }
 
