@@ -49,12 +49,14 @@ console.log(`Remaining shoes in stock: ${shoes.quantity}`);
 
 //task 4
 class CarClass {
-    constructor(make, model, year) {
+  
+#speed
+   constructor(make, model, year) {
         this.make = make;
         this.model = model;
         this.year = year;
-        this.speed = 0;
-    }
+        this.#speed = 0;
+     }
 
     getCarInfo() {
         console.log(`Make: ${this.make}, Model: ${this.model}, Year: ${this.year}`);
