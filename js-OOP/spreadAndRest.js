@@ -63,7 +63,7 @@ class CarClass {
     }
 
     accelerate(speed) {
-        this.speed += speed;
+        this.#speed += speed;
     }
 
     brake(speed) {
