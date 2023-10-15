@@ -83,7 +83,7 @@ class AudiClass extends CarClass {
     }
 
     get myCurrentColor() {
-        return this.color;
+        return this.#color;
     }
 
     set myCurrentColor(newColor) {
