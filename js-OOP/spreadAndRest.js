@@ -79,7 +79,7 @@ class AudiClass extends CarClass {
     }
 
     getCarInfo() {
-        console.log(`Make: ${this.make}, Model: ${this.model}, Year: ${this.year}, Color: ${this.color}, Speed: ${this.speed}`);
+        console.log(`Make: ${this.make}, Model: ${this.model}, Year: ${this.year}, Color: ${this.#color}`);
     }
 
     get myCurrentColor() {
