@@ -10,7 +10,7 @@ const multiply = (miltiplier, ...arguments) => arguments.map(argument => argumen
 console.log(multiply(4, 9, 83, 8));
 
 //task 3
-class Productclass {
+class ProductClass {
     constructor(name, price, quantity) {
         this.name = name;
         this.price = price;
@@ -31,9 +31,9 @@ class Productclass {
     }
 }
 
-const tShirt = new Productclass('T-Shirt', 20, 100);
-const jeans = new Productclass('Jeans', 30, 50);
-const shoes = new Productclass('Shoes', 50, 30);
+const tShirt = new ProductClass('T-Shirt', 20, 100);
+const jeans = new ProductClass('Jeans', 30, 50);
+const shoes = new ProductClass('Shoes', 50, 30);
 
 console.log(`Total price of all T-Shirts: $${tShirt.getTotalPrice()}`);
 console.log(`Total price of all jeans: $${jeans.getTotalPrice()}`);
