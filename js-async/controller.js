@@ -8,12 +8,12 @@ export class ApiController {
 
     async fetchComments() {
         const response = await fetch(this.commentsURL);
-        return await response.json();
+        return response.json();
     };
 
     async fetchPosts() {
         const response = await fetch(this.postsURL);
-        return await response.json();
+        return response.json();
     };
 
     async fetchData() {
@@ -27,7 +27,7 @@ export class ApiController {
 
     async fetchFasterResult() {
         try {
-            return await Promise.race([this.fetchComments(), this.fetchPosts()]);
+            return Promise.race([this.fetchComments(), this.fetchPosts()]);
         } catch (error) {
             throw new Error('An error occurred: ' + error.message);
         }
