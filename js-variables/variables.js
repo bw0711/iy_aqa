@@ -1,7 +1,7 @@
 const adminName = "admin";
 const userName = 123;
 
-console.log(typeof(adminName), typeof(userName));
+console.log(typeof adminName, typeof userName);
 
 const firstTemValue = 1;
 const secondTempValue = 2;

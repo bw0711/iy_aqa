@@ -1,8 +1,8 @@
 const userSettings = {
-    username: "john_doe",
-    theme: "dark",
-    language: "en",
-    notifications: true
+  username: "john_doe",
+  theme: "dark",
+  language: "en",
+  notifications: true,
 };
 
 const serializedSettings = JSON.stringify(userSettings);
