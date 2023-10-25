@@ -1,0 +1,10 @@
+const titleSelector = 'title#hgvdhet_';
+const headerSelector = 'header.header h1[data-cy="header"]';
+const websiteLinkSelector = 'a[href="https://www.cypress.io/"]';
+const descriptionSelector = 'p.description';
+const button1Selector = 'button#button1';
+const button2Selector = 'button#button2';
+const button3Selector = 'button#button3';
+const nameInputSelector = 'input#name';
+const emailInputSelector = 'input#email';
+const messageTextareaSelector = 'textarea#message';
